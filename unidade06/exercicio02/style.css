@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(191, 217, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+  
+    border-radius: 1px;
+    border: 10px solid rgb(191, 217, 240);
+    box-shadow: 0 0 20px red;
+}
+
+.ingredientes{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    background-color: rgba(255, 0, 0, 0.637);
+    margin: 3px;
+    padding: 1.5rem;
+    border-radius: 5px;
+}   
+
+
+.destaqui{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    background-color: rgba(255, 0, 0, 0.637);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
