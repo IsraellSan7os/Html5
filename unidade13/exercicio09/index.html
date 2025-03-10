@@ -7,7 +7,16 @@
 
     <body>
         <form action="index.html" method="post">
-            
+            <input type="range" id="filhos" max="10" value="1" onchange="mostraResultado()">
+            <span id="resultado"></span>
         </form>
+
+        <script>
+            function mostraResultado() {
+                var filhos = document.getElementById("filhos");
+                var resultado = document.getElementById("resultado");
+                resultado.innerHTML = "Você tem " + filhos.value + " filhos";
+            }
+        </script>
     </body>
 </html>

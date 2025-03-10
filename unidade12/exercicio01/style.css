@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(39, 56, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    
+
+}
+
+
+
+
+table{
+    border: 1px solid rgb(0, 0, 0);
+    width: 30rem;
+
+
+}
+
+td, th{
+    border: 0.5px solid rgb(0, 0, 0);
+    border-width: 1px;
+    padding: 5px;
+    background-color: rgb(8, 51, 51);
+    color: #fff;
+
+}
+

@@ -26,9 +26,10 @@ h2 {
 input {
 	display:block;
 	margin-bottom:20px;
-	border:1px solid #999;
+	border:1px solid #0e1f0f;
 	padding:8px;
 	border-radius:3px;
+	
 }
 
 input:focus {
@@ -42,5 +43,10 @@ input[type=submit] {
 	background:linear-gradient(top, #F33, #933 );
 	border:1px solid #333;
 	cursor:pointer;
+}
+
+#enviar{
+	background-color: #0e1f0f;
+
 }
 

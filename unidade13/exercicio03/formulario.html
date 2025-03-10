@@ -10,7 +10,8 @@
     <body>
         
         <h2>Formulário</h2>
-        <form action="destino.html" method="post">
+        <form action="#" method="post">
+
             <label for="nome">Nome completo</label>
             <input type="text" name="nome" id="nome" size="30" maxlength="100">
             
@@ -20,8 +21,16 @@
             <label for="email">Email</label>
             <input type="text" name="email" id="email" size="30" maxlength="60">             
             
-            <input type="submit" value="Enviar" id="enviar" name="enviar">
+            <input type="submit" value="Enviar" id="enviar" name="enviar" onclick="enviar()">
+
         </form>
+
+        
+        <div  id="resultado">
+            resultado
+        </div>
+
+        <script src="script.js"></script>
     
     </body>
 </html>
